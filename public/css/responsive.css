@@ -2,10 +2,11 @@
 
 @media screen and (max-width:600px) {
     /* --------------- CONTENT  --------------- */
+    se
     .center .widget-contents{
         display: inline-flex;
     }
-    .center .card-contatiner{
+    .center .card-container{
         justify-content: center;
     }
 }

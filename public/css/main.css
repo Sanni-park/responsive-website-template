@@ -57,11 +57,11 @@ html {
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    height: 333px;
+    height: auto;
 }
 
 .center .contents-title{
-    width: 150px;
+    width: 200px;
     padding: 10px 0;
 }
 
@@ -76,6 +76,8 @@ html {
 
 section{
     display: inline-flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .center .card-container{
