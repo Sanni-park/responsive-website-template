@@ -54,7 +54,7 @@ html {
 
 
 .center .widget-contents{
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     height: 333px;
@@ -66,7 +66,7 @@ html {
 }
 
 .center .container-title-box{
-    width: 1000px;
+    width: 1;
     height: 71px;
     background-color: rgba(221, 221, 221, 0.31);
 }

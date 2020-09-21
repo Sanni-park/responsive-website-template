@@ -2,6 +2,9 @@
 
 @media screen and (max-width:600px) {
     /* --------------- CONTENT  --------------- */
+    .center .widget-contents{
+        display: inline-flex;
+    }
     .center .card-contatiner{
         justify-content: center;
     }
