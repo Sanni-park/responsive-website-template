@@ -52,6 +52,7 @@ html {
     background-color: #f5f5f5;
 }
 
+
 .center .widget-contents{
     display: flex;
     flex-wrap: wrap;
@@ -60,22 +61,21 @@ html {
 }
 
 .center .contents-title{
-    width: 200px;
+    width: 150px;
     padding: 10px 0;
 }
 
 .center .container-title-box{
-    width: auto;
+    width: 1000px;
     height: 71px;
     background-color: rgba(221, 221, 221, 0.31);
 }
 
 .select-menu{
-    order: 2;
 }
 
-.center .content-container{
-    
+section{
+    display: inline-flex;
 }
 
 .center .card-container{
