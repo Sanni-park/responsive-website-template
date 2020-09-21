@@ -95,12 +95,24 @@ h4{
     .add-menu-body{
         padding: 20px
                  0px
-                 39px
+                 30px
                  0px;
         margin: 20px 
                 0px 
-                39px 
+                33px 
                 0px;
+        width: 100%;
+        border-radius: 4px;
+        border: solid 1px #bfbfbf;
+    }
+.add-menu-body-container{
+    padding: 0px
+             0px
+             0px
+             40px;
+    
+        width: 100%;
+        min-width: auto;
         display: inline-flex;
         flex-wrap: wrap;
         gap: 30px;
