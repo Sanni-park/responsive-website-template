@@ -69,6 +69,10 @@ h4{
     background-color: #f5f5f5;
 }
 
+/* TODO: BORDERS */
+.center .add-menu-body, .center .title-background-box, .center .title-box {
+    border: solid 1px rgb(214, 214, 214);
+}
 
 .center .widget-contents{
     display: inline-flex;
@@ -90,9 +94,9 @@ h4{
     }
     .add-menu-body{
         padding: 20px
-                 30px
+                 0px
                  39px
-                 30px;
+                 0px;
         margin: 20px 
                 0px 
                 39px 
@@ -101,6 +105,7 @@ h4{
         flex-wrap: wrap;
         gap: 30px;
         justify-content: flex-start;
+        width: 100%;
     }
     .image-upload{
         width: 150px;
@@ -128,25 +133,31 @@ h4{
     article .between-space{
         height: 37px;
     }
+    .add-menu-body .add-picture {
+        padding-left: 30px;
+    }
     .add-button{
         width: 100px;
     }
-
 
 .center .contents-title{
     width: 200px;
     padding: 10px 0;
 }
 
-
-
 .select-menu{
+}
+
+.center .testi {
+    border: dotted red 2px;
+    width: 100%;
 }
 
 section{
     display: inline-flex;
     justify-content: flex-start;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .center .card-container{

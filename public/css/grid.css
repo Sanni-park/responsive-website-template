@@ -48,7 +48,6 @@
 
 .grid .center {
     grid-area: center;
-    max-width: 1300px;
 }
 
 .grid .right {
