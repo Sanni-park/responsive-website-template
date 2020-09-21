@@ -53,19 +53,45 @@ html {
 }
 
 .center .widget-contents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 333px;
+}
+
+.center .contents-title{
+    width: 200px;
+    padding: 10px 0;
+}
+
+.center .container-title-box{
+    width: auto;
+    height: 71px;
+    background-color: rgba(221, 221, 221, 0.31);
+}
+
+.select-menu{
+    order: 2;
+}
+
+.center .content-container{
     
 }
 
-.center .contents-container{
-    width: 1055px;
-    height: 333px;
+.center .card-container{
+    width: auto;
+    height: auto;
     border-radius: 4px;
     border: solid 1px rgba(0, 0, 0, 0.25);
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 13px;
+    justify-content: flex-start;
 }
 
 .center .container-cards{
-    width: 252px;
-    height: 252px;
+    width: 200px;
+    height: 200px;
     border-radius: 3px;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.03);
     border: solid 1px #bfbfbf;

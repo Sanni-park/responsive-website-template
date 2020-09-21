@@ -1,0 +1,8 @@
+/* Responsive styling */
+
+@media screen and (max-width:600px) {
+    /* --------------- CONTENT  --------------- */
+    .center .card-contatiner{
+        justify-content: center;
+    }
+}
