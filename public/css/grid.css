@@ -59,9 +59,10 @@
     grid-area: footer;
 }
 
-/* Set a border to the grid divs for easier debugging */
+/* Set a border to the grid divs for easier debugging 
 .grid div {
     -webkit-box-shadow:inset 0px 0px 0px 1px rgb(214, 214, 214);
     -moz-box-shadow:inset 0px 0px 0px 1px rgb(214, 214, 214);
     box-shadow:inset 0px 0px 0px 1px rgb(214, 214, 214);
 }
+*/
