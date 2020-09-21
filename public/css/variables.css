@@ -1,0 +1,21 @@
+/* Variables */
+
+/* Colors: https://coolors.co/28536b-c2948a-7ea8be-f6f0ed-bbb193 */
+:root {
+    --main-bg-color: #ffffff;
+    --main-button-color: #c2948a;
+    --main-button-color-hover: #b3857b;
+    --main-button-color-active: #c2948a;
+    --main-font-color: #28536b;
+    --main-font-color-2: #7ea8be;
+    --main-button-color-2: #bbb193;
+}
+
+/* Misc */
+:root {
+    --border-radius: 5px;
+}
+
+:root {
+    --header-background-color: grey;
+}
