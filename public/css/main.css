@@ -1,4 +1,9 @@
 /* Main styling */
+@font-face {
+    src: url(font/Mulish-VariableFont_wght.ttf);
+    font-family: Mulish;
+}
+
 
 * {
     margin: 0;
@@ -10,6 +15,18 @@ html {
     font-family: 'Source Sans Pro', 'Arial', sans-serif;
     background-color: var(--main-bg-color);
 }
+/* --------------- TEXT STYLE --------------- */
+
+h4{
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0
+            0
+            10px
+            0px;
+    font-family: Mulish;
+    font-weight: 500;
+}
+
 
 /* --------------- HEADER --------------- */
 .grid .header #header h1 {
@@ -60,16 +77,68 @@ html {
     height: auto;
 }
 
+.container-add-menu{
+    max-width: 849px;
+    width: 100vw;
+    min-width: 100px;
+    height: auto;
+}
+    .title-background-box{
+        width: auto ;
+        height: 71px;
+        background-color: rgba(221, 221, 221, 0.31);
+    }
+    .add-menu-body{
+        padding: 20px
+                 30px
+                 39px
+                 30px;
+        margin: 20px 
+                0px 
+                39px 
+                0px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: flex-start;
+    }
+    .image-upload{
+        width: 150px;
+        height: 150px;
+        border-radius: 3px;
+        border: solid 1px var(--widget-contents-line-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .plus-icon{
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
+    }
+    
+    article .text-box{
+        width: 30vw;
+        max-width: 344px;
+        min-width: 250px;
+        height: 40px;
+        border-radius: 3px;
+        border: solid 1px var(--widget-contents-line-color);
+    }
+    article .between-space{
+        height: 37px;
+    }
+    .add-button{
+        width: 100px;
+    }
+
+
 .center .contents-title{
     width: 200px;
     padding: 10px 0;
 }
 
-.center .container-title-box{
-    width: 1;
-    height: 71px;
-    background-color: rgba(221, 221, 221, 0.31);
-}
+
 
 .select-menu{
 }

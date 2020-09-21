@@ -6,6 +6,20 @@
     .center .widget-contents{
         display: inline-flex;
     }
+    .add-menu-body{
+        padding: 20px
+                 30px
+                 39px
+                 30px;
+        margin: 20px 
+                40px 
+                39px 
+                40px;
+          gap: 13px;
+    }
+    article .text-box{
+        min-width: 190px;
+    }
     .center .card-container{
         justify-content: center;
     }
