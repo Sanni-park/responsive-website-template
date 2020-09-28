@@ -17,6 +17,14 @@
 }
 
 :root {
+    --header-background-color: grey;
     --header-background-color: #c0637e;
     --widget-contents-line-color: #bfbfbf;
+    --card-title-color: #737373;
+    --container-guide-text: #bfbfbf;
+    --section-title-color: #3e3e3e;
+    --text-container-background-color : #f5f5f5;
+    --navigation-boarder-line: #979797;
+    --box-hover-border-color: black;
+    --profile-oval-background-color: #d8d8d8;
 }

@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>       
         <title>
-            Widget Example
+            Valo Lunch menu Widget
         </title>
-        <meta charset="utf-8" />
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="./css/variables.css" />
-        <link rel="stylesheet" type="text/css" href="./css/grid.css" />
-        <link rel="stylesheet" type="text/css" href="./css/main.css" />
-        <link rel="stylesheet" type="text/css" href="./css/responsive.css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">         
+        <link rel=" stylesheet" type="text/css" href="./css/variables.css" />
+        <link rel=" stylesheet" type="text/css" href="./css/grid.css" />
+        <link rel=" stylesheet" type="text/css" href="./css/main.css" />
+        <link rel=" stylesheet" type="text/css" href="./css/responsive.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel=" stylesheet">      
         <script src="./js/Utils.js"></script>
         <script src="./js/App.js"></script>
     </head>
@@ -18,51 +18,154 @@
     <body>
         <div class="grid">
             <div class="header">
-                <div class="top-app-bar">Top app bar</div>
-                <div class="tabs">Tabs</div>
+                <div class="navigation-bar">
+                    <div class="top-app-bar">
+                        <img class="top-app-icon" src="images/icons/app-icon@3x.png" alt="app-icon">
+                        <div class="white-app-divider-line"></div>
+                        <h6>Office 365</h6>
+                        <div class="white-divider-line"></div>
+                        <h6>SharePoint</h6>
+                    </div>
+                    <img class="valo-logo" src="images/icons/valo-logo@3x.png" alt="valo-logo">
+                    <div class="user-info">
+                        <div class="user-name">Sang-eun Park(me)</div>
+                        <img class="user-profile" src="images/icons/user-profile.png" alt="user-profile-image">
+                    </div>
+                </div>
+                <ol class="tab-bar">
+                    <li class="tabs">BROWSE</li>
+                    <li class="tabs">EVENT</li>
+                    <li class="tabs">WIDGETS</li>
+                    <li class="tabs">LUNCH MENU</li>
+                </ol>
             </div>               
             <div class="left">
             </div> 
             <div class="center">
-                <div class="contents-top-navigation">contents-top-navigation</div>
+                <ul class="contents-top-navigation" id="top-nav">
+                    <li class="navs">Home</li>
+                    <li class="navs">About us</li>
+                    <li class="navs">internal services</li>
+                    <li class="navs">Teamwork</li>
+                    <li class="navs" id="selected-nav">Lunch Menu</li>
+                    <li class="navs"><img src="images/icons/drop-down-menu-bar.png" alt="drop-down-icon"></li>
+                </ul>
+                <div class="navigation-bottom-line"></div>
                 
                 <div class="lunch-menu-widget">
                     <div class="widget-title">
                         <div class="title-box">
-                            TODAY'S MENU
+                            <h2>TODAY'S MENU</h2>
                         </div>
                     </div>
                     <div class="widget-contents">
                         <section>
-                            <div class="contents-title">Suggest Menu</div>
+                            <div class="contents-title"><h3>Suggest Menu</h3></div>
                             <div class="container-add-menu">
-                                <div class="title-background-box">Add menu</div>
+                                <div class="title-background-box"><h1>Add menu</h1></div>
                                 <div class="add-menu-body">
-                                    <article class="add-picture">
-                                        <h4 class="">Add picture or icon</h4>
-                                        <div class="image-upload"><img class="plus-icon" src="images/icons/plus-icon@3x.png"></div>
-                                    </article>
-                                    <article class="menu-title">
-                                        <h4 class="">Menu title</h4>
-                                        <div class="text-box"></div>
-                                        <div class="between-space"></div>
-                                        <h4 class="">Location</h4>
-                                        <div class="text-box"></div>
-                                    </article>
-                                    <article class="add-button">
-                                        <h4>Add</h4>
-                                    </article>
+                                    <div class="add-menu-body-container">
+                                        <article class="picture-container">
+                                            <h4 class="">Add picture or icon</h4>
+                                            <div class="image-upload"><img class="plus-icon" src="images/icons/plus-icon@3x.png" alt="plus-icon-corss-bar"></div>
+                                        </article>
+                                        <article class="add-menu-info-container">
+                                            <h4 class="">Menu title</h4>
+                                            <div class="text-box"> 
+                                                <h5>Text</h5>
+                                            </div>
+                                            <div class="between-space"></div>
+                                            <h4 class="">Location</h4>
+                                            <div class="text-box"> 
+                                                <h5>Search</h5>
+                                            </div>
+                                        </article>
+                                        <article class="add-button">
+                                            <h4>Add</h4>
+                                        </article>
+                                    </div>
                                 </div>
                             </div>
                         </section>
                         <section>
-                            <div class="contents-title"> <p class="select-menu">Select Menu</p></div>
+                            <div class="contents-title"> <h3>Select Menu</h3></div>
                             <div class="contents-container">
-                                <div class="card-container">
-                                    <div class="container-cards">Burrito ball</div>
-                                    <div class="container-cards">Pizza</div>
-                                    <div class="container-cards">Lunch box</div>
-                                    <div class="container-cards">Burger King</div>
+                                <div class="menu-card-container">
+                                    <div class="container-cards">
+                                        <div class="card-top-elements">
+                                            <img class="heart-icon" src="images/icons/icons8-heart.svg" alt="heart-icon">
+                                            <img class="menu-vertical-icon" src="images/icons/icons8-menu-vertical-96.png" alt="menu-vertical-icon">
+                                        </div>
+                                        <div class="card-middle-elements">
+                                            <img class="food-img-icon" src="images/icons/burrito-ball.png" srcset="images/icons/burrito-ball@2x.png" alt="burrito-ball-icon">
+                                        </div>
+                                        <div class="card-bottom-elements">
+                                            <p class="card-food-title">Burrito ball</p>
+                                            <p class="chosen-number">12 members</p>
+                                            <div class="card-profiles">
+                                                <div class="profile-oval" style="background-image: url(images/card-profiles/1.png)"></div>
+                                                <div class="profile-oval" style="background-image: url(images/card-profiles/2.png)"></div>
+                                                <div class="profile-oval" style="background-image: url(images/card-profiles/3.png)"></div><div class="profile-oval" style="background-image: url(images/icons/Profile-Plus-Icon.png)"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container-cards">
+                                        <div class="card-top-elements">
+                                            <img class="heart-icon" src="images/icons/icons8-heart.svg" alt="heart-icon">
+                                            <img class="menu-vertical-icon" src="images/icons/icons8-menu-vertical-96.png" alt="menu-vertical-icon">
+                                        </div>
+                                        <div class="card-middle-elements">
+                                            <img class="food-img-icon" src="images/icons/pizza.png" srcset="images/icons/pizza@2x.png" alt="pizza-icon">
+                                        </div>
+                                        <div class="card-bottom-elements">
+                                            <p class="card-food-title">Pizza</p>
+                                            <p class="chosen-number">10 members</p>
+                                            <div class="card-profiles">
+                                                <div class="profile-oval" style="background-image: url(images/card-profiles/4.png)"></div>
+                                                <div class="profile-oval" style="background-image: url(images/card-profiles/5.png)"></div>
+                                                <div class="profile-oval" style="background-image: url(images/card-profiles/6.png)"></div>
+                                                <div class="profile-oval" style="background-image: url(images/icons/Profile-Plus-Icon.png)"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container-cards">
+                                        <div class="card-top-elements">
+                                            <img class="heart-icon" src="images/icons/icons8-heart.svg" alt="heart-icon">
+                                            <img class="menu-vertical-icon" src="images/icons/icons8-menu-vertical-96.png" alt="menu-vertical-icon">
+                                        </div>
+                                        <div class="card-middle-elements">
+                                            <img class="food-img-icon" src="images/icons/lunch-box.png" srcset="images/icons/lunch-box@2x.png" alt="lunch-box-icon">
+                                        </div>
+                                        <div class="card-bottom-elements">
+                                            <p class="card-food-title">Lunch box</p>
+                                            <p class="chosen-number">8 members</p>
+                                            <div class="card-profiles">
+                                                <div class="profile-oval" style="background-image: url(images/card-profiles/7.png)"></div>
+                                                <div class="profile-oval" style="background-image: url(images/card-profiles/8.png)"></div>
+                                                <div class="profile-oval" style="background-image: url(images/card-profiles/9.png)"></div>
+                                                <div class="profile-oval" style="background-image: url(images/icons/Profile-Plus-Icon.png)"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container-cards">
+                                        <div class="card-top-elements">
+                                            <img class="heart-icon" src="images/icons/icons8-heart.svg" alt="heart-icon">
+                                            <img class="menu-vertical-icon" src="images/icons/icons8-menu-vertical-96.png" alt="menu-vertical-icon">
+                                        </div>
+                                        <div class="card-middle-elements">
+                                            <img class="food-img-icon" src="images/icons/burger-king.png" srcset="images/icons/burger-king@2x.png" alt="burger-king-icon">
+                                        </div>
+                                        <div class="card-bottom-elements">
+                                            <p class="card-food-title">Burger King</p>
+                                            <p class="chosen-number">5 members</p>
+                                            <div class="card-profiles">
+                                                <div class="profile-oval" style="background-image: url(images/card-profiles/10.png)"></div>
+                                                <div class="profile-oval" style="background-image: url(images/card-profiles/11.png)"></div>
+                                                <div class="profile-oval" style="background-image: url(images/card-profiles/12.png)"></div>
+                                                <div class="profile-oval" style="background-image: url(images/icons/Profile-Plus-Icon.png)"></div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </section>

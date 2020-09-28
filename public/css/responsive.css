@@ -1,26 +1,125 @@
 /* Responsive styling */
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:1080px) {
+    
+    
     /* --------------- CONTENT  --------------- */
-    se
+    /* --------- Contents-navigation ---------- */
+    
+    .navs{
+        font-size: 23px;
+    }
+    .center .navs:nth-child(n+0){
+        display: none;
+    }
+    .center .navs:nth-child(5){
+        display: block;
+        margin: 0 auto 0 auto;
+    }
+    .center .navs:nth-child(6){
+        display: block;
+        margin: 0;
+    }
+    .navigation-bottom-line{
+        margin: 0 auto 20px auto;
+    }
+}
+
+
+
+@media screen and (max-width:600px) {
+    
+    
+    /* --------------- HEADER --------------- */
+    /* --------- Top-app-navigation ---------- */
+    
+    h6,.white-app-divider-line,.white-divider-line,.user-name{
+        display: none;
+    }
+    .header{
+        height: 100px;
+    }
+    .user-profile{
+        margin:  10px 15px 0 0;
+    }
+    
+    
+    /* --------- Top-app-tab-bar-navigation ---------- */
+    .tab-bar{
+        height: 50px;
+        align-content: flex-end;
+    }
+    
+    
+    /* --------------- CONTENT  --------------- */
+    /* --------- Contents-navigation ---------- */
+    .center .contents-top-navigation{
+        width: 90%;
+        margin: 20px 5% 20px 5%;
+    }
+    
+    .navigation-bottom-line{
+        width: 90%;
+    }
+    
+    .center .title-box{
+        margin: 0 0 0 8%;
+    }
+    
     .center .widget-contents{
         display: inline-flex;
     }
+    
+    
+    /* --------- Center-body-contents ---------- */
+    
+    .center .contents-title{
+        padding:20px 40px 16px 8%;
+    }
+    
+    
+    /* --------- Section-suggest-menu ---------- */
+    
+    
+    .container-add-menu{
+        width: 413px;
+        margin: 0 8% 20px 8%;
+    }
+    
     .add-menu-body{
-        padding: 20px
-                 30px
-                 39px
-                 30px;
-        margin: 20px 
-                40px 
-                39px 
-                40px;
-          gap: 13px;
+        padding: 0px 0px 0px 0px;
+        margin: 20px 0px 20px 0px;
+        width: 400px;
     }
-    article .text-box{
-        min-width: 190px;
-    }
-    .center .card-container{
+    
+        .add-menu-body-container{
+            padding: 0px 0px 0px 0px;
+            margin: 0px 0px 0px 0px;
+            gap: 13px;
+        }
+
+        .picture-container{
+            padding: 0 0 0 30px;
+        }
+
+        article .text-box{
+            min-width: 190px;
+        }
+
+        .add-menu-info-container{
+            padding: 0 0px 0px 0;
+        }
+
+        .add-button{
+            width: 100%;
+            margin: 0 0px 0px -14px;
+            padding: 10px 0px 0px 0px ;
+        }
+    
+    
+    /* --------- Section-select-menu ---------- */
+    
+    .center .menu-card-container{
         justify-content: center;
     }
 }

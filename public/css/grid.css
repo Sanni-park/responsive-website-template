@@ -4,10 +4,10 @@
     display: grid;
     position: relative;
     grid-template-columns: 
-                        10% auto 10%;
+                        15% auto 20%;
 
     grid-template-rows: 
-                        91px
+                        80px
                         auto
                         80px;
 
@@ -18,6 +18,13 @@
     
     min-height: 100vh;
     
+}
+
+@media screen and(max-width:1200px){
+    .grid{
+        grid-template-columns: 
+                        0% auto 5%;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -63,5 +70,6 @@
     -webkit-box-shadow:inset 0px 0px 0px 1px rgb(214, 214, 214);
     -moz-box-shadow:inset 0px 0px 0px 1px rgb(214, 214, 214);
     box-shadow:inset 0px 0px 0px 1px rgb(214, 214, 214);
-}
-*/
+    border: solid 1px red;
+} */
+
